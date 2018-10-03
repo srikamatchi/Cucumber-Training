@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#This is to check test result for Pass test case"
+          }
+        ],
+        "line": 5,
+        "name": "Login functionality exists",
+        "description": "",
+        "id": "cucumber-report;login-functionality-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8409803971,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "cucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8526991157,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "cucumberReport.openFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59092464,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login button should exist",
+            "match": {
+              "location": "cucumberReport.loginButtonCheck()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 13,
+            "value": "#This is to check test result for Failed test case"
+          }
+        ],
+        "line": 15,
+        "name": "Forgot password exists",
+        "description": "",
+        "id": "cucumber-report;forgot-password-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I have open the browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I open Facebook website",
+            "match": {
+              "location": "cucumberReport.openFacebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Forgot password link should exist",
+            "match": {
+              "location": "cucumberReport.forgotPass()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber Report",
+    "description": "",
+    "id": "cucumber-report",
+    "keyword": "Feature",
+    "uri": "cucumberReport/cucumberReport.feature"
+  }
+]
